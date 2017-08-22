@@ -1,0 +1,140 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+}
+.wrapper {
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+
+.sidebar {
+    z-index: 1000;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #2caff3;
+    color: rgba(255, 255, 255, 5);
+    font-weight: 300;
+}
+
+.sidebar_header>a:hover{
+    color: white;
+    text-decoration: none;
+}
+.sidebar .sidebar_header {
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.content
+{
+    width: 100%;
+}
+
+.page-wrapper{
+    background: rgba(203, 203, 210, 0.15);
+    position: relative;
+    padding-bottom: 60px;
+    z-index: 2;
+    float: right;
+    width: calc(100% - 200px);
+    min-height: 100%;
+}
+
+.navbar{
+    border-radius: 0;
+    border-bottom-color: #e7e7e7;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.simple-text{
+    text-transform: uppercase;
+    display: block;
+    font-size: 15pt;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.nav-left > ul{
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-top: 14px;
+    color: rgb(119, 119, 119);
+}
+
+.container-fluid .maincontent {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    background-color: white;
+    border-top: 1px solid;
+    border-color: #d7d7d7;
+}
+
+.content{
+    background-color: #f7f7f8;
+    position: relative;
+    width: auto;
+    min-height: inherit;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    height: 100vh;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.flex-column {
+    width: 200px;
+    padding: 5px;
+}
+
+.flex-column > .nav-link{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+}
+.nav-link:hover, .nav-link.active{
+    background: rgba(7, 127, 189, 0.24);
+}
+
+.mr-auto{
+    margin-left: auto;
+    margin-right: 0 !important;
+    letter-spacing: 1px;
+}
+.card > .contentpage{
+    padding: 15px 15px 10px 15px;
+}
+a.header-text {
+    padding-left: 0!important;
+    font-size: 15pt;
+    color: white;
+}

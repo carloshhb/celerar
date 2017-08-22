@@ -1,0 +1,303 @@
+body {
+    background-size: auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 0 !important;
+}
+.wrapper{
+    position: relative;
+    top: 0;
+    width: inherit;
+    min-height: inherit;
+    padding-bottom: 10px;
+}
+.nav{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba (255,255,255,0.5);
+}
+.mr-auto{
+    margin-right: 0!important;
+    margin-left: auto!important;
+}
+.jumbotron{
+
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-bottom:30px;
+    text-align: center;
+
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+
+container-fluid.icons{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.hero-content{
+    margin-top: 180px;
+}
+.loginmodal-container {
+    padding: 30px;
+    max-width: 350px;
+    width: 100% !important;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.loginmodal-container h1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.loginmodal-container input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #f7f7f7;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-width: 2px;
+}
+.loginmodal-container input[type=text], input[type=password]:focus{
+    background: #f7f7f7;
+}
+.loginmodal-submit{
+    position: absolute;
+    right: 44px;
+    top: 56%;
+    background: #ffffff;
+    color: #999999;
+    padding: 10px 0;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    border: 5px solid rgb(37, 33, 32);
+    border-radius: 50%;
+    transition: all ease-in-out 500ms;
+    cursor: pointer;
+}
+.loginmodal-submit.clicked {
+    color: #555555;
+}
+.loginmodal-submit.success {
+    color: #2ecc71;
+}
+.loginmodal-submit.error {
+    color: #e74c3c;
+}
+.loginmodal-submit:hover {
+    color: #555555;
+    transform: rotate(450deg);
+}
+.loginmodal-container a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity ease 0.5s;
+}
+
+#login-modal-chevron{
+    color: #2caff3;
+}
+
+.btn-lg.registrar{
+    background-color: #2caff3;
+    border-color: #2caff3;
+    color: white;
+}
+
+.btnlogin{
+    border-radius: 5px;
+    border-color: #2caff3;
+    margin-top: 4px;
+}
+
+a.nav-link.btn.btn-sm.btnlogin:hover {
+    color: white;
+    background-color: #2caff3;
+}
+
+.login-help{
+    font-size: 12px;
+}
+
+.navbar-brand{
+    font-style: italic;
+}
+
+li.nav-item {
+    margin-left: 20px;
+}
+
+.container-fluid.icons {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.separador{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.bg-faded {
+    transition-property: all;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+    -webkit-transition: all 1s;
+    background-color: rgba(247, 247, 247, 0);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.affix-top {
+    transition-property: all;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+    -webkit-transition: all 1s;
+    width: 100%;
+    position: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+    /*background-color: rgba(44, 175, 243, 0.93);*/
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link, .affix-top .navbar-nav .nav-link{
+    color: rgba(255, 255, 255, 0.91);
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-text, .navbar-light .navbar-nav .active>.nav-link,
+.affix-top .navbar-brand, .affix-top .navbar-text, .affix-top .navbar-nav .active>.nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-brand:hover, .affix-top .navbar-nav .nav-link:hover,
+.affix-top .navbar-nav .nav-link:focus, .affix-top .navbar-brand:hover{
+    color: white;
+    -webkit-transition: border-bottom 0.3s; /* For Safari 3.1 to 6.0 */
+    transition-property: border-bottom;
+    transition-delay: 0.3s;
+    transition-timing-function: ease-in;
+    border-bottom-color: white;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+
+#bloginModal:hover{
+    border-radius: 4px;
+    border-bottom: 0;
+}
+
+#titulo:hover{
+    border: 0;
+}
+
+.navbar-light a.nav-link.btn.btn-sm.btnlogin ,.affix-top a.nav-link.btn.btn-sm.btnlogin {
+    border-color: white;
+    color: white;
+}
+
+.navbar-light a.nav-link.btn.btn-sm.btnlogin:hover{
+    border-color: #2caff3;
+    background-color: #2caff3;
+    color: white;
+}
+
+.affix-top a.nav-link.btn.btn-sm.btnlogin:hover {
+    border-color: white;
+    background-color: white;
+    color: #2caff3;
+}
+
+section#conteudo {
+    padding-top: 60px;
+}
+
+.top-wrapper {
+    background-image: url("../img/sky_estrelas.jpg");
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 0;
+    height: 815px;
+}
+
+.navbar-light .navbar-text, .navbar-light .navbar-brand, .navbar-light .nav-item > .active, .navbar-light .navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+
+section#comofunciona {
+    background-color: rgb(242, 242, 243);
+    /*background-color: rgb(250, 246, 236);*/
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+section#msolucao {
+    padding-top: 40px;
+}
+
+.col-lg-6.offset-lg-1.text-center.fazemos {
+    margin-left: 0;
+    margin-bottom: 70px;
+}
+
+h6.fazemos{
+    text-align: justify;
+    font-size: 13pt;
+}
+
+.col-lg-6.offset-lg-1.text-center.fazemoslow {
+    margin-left: 0;
+}
+
+i.fa.fa-check, i.fa.fa-times {
+    font-size: 45pt;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    /*background-color: rgb(250, 246, 236);*/
+    background-color: rgb(242, 242, 243);
+    border-top: 1px solid;
+    border-color: #d7d7d7;
+}
+
+.service-box{
+    padding-top: 10px;
+}
